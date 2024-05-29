@@ -9,10 +9,9 @@
 
 1. [소개](#소개)
 2. [설치](#설치)
-3. [사용법](#사용법)
-4. [데이터셋](#데이터셋)
-5. [모델](#모델)
-6. [결과](#결과)
+3. [데이터셋](#데이터셋)
+4. [모델](#모델)
+5. [결과](#결과)
 
 ## 소개
 
@@ -25,37 +24,29 @@
 
 환경 설정 및 필요한 종속성을 설치
 
+
+Window 환경에서 Coda를 사용하였으며 다른 환경에서의 지원여부는 확인되지 않았습니다.
+
 1. 저장소를 클론:
     ```bash
-    git clone https://github.com/yourusername/pothole-detection-improvement.git
+    git clone https://github.com/hyun0229/pothole-detection-with-similar-objects.git
     cd pothole-detection-improvement
     ```
 
 2. 가상 환경을 생성 및 활성화:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # Windows의 경우 `venv\Scripts\activate` 사용
+    venv\Scripts\activate
     ```
 
 3. 필요한 패키지를 설치:
     ```bash
     pip install -r requirements.txt
     ```
-
-## 사용법
-
-1. **모델 학습:**
-    ```bash
-    python train.py 
-    ```
-
-2. **모델 평가:**
-    ```bash
-    python evaluate.py 
-    ```
-3. **모델 평가:**
  
 ## 데이터셋
+본 저장소는 데이터셋을 포함하고 있지 않습니다.
+
 
 본 연구에서 AIhub의 '지자체 도로 정비 AI 학습용 데이터'를 사용했으며 사용된 데이터셋은 세 가지 주요 그룹으로 분류됩니다:
 
